@@ -23,7 +23,10 @@ body {
   padding: 4rem;
 }
 h2 {
+  padding: 1rem;
   margin: 0;
+  text-align: center;
+  width: 100%;
 }
 ul {
   list-style: none;
@@ -32,6 +35,9 @@ ul {
 ul li {
   margin: 1rem 0;
   font-size: 1.1rem;
+}
+ul li label {
+  cursor: pointer;
 }
 button {
   background-color: #3498db;
